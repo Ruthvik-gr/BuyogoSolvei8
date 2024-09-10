@@ -48,6 +48,7 @@ This application uses NgRx to manage the global state. The data for the login an
 The application uses mock data for user authentication and allowed organizations. 
 
 ```json
+[
  {
     name: 'Emily Chen',
     password: 'securepass123',
@@ -113,6 +114,7 @@ The application uses mock data for user authentication and allowed organizations
   { orgId: '001', orgName: 'Google' },
   { orgId: '002', orgName: 'JP Morgan' },
   { orgId: '003', orgName: 'Amazon' },
+]
 ```
 
 ## Validations
